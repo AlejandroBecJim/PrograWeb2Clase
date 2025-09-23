@@ -68,7 +68,7 @@ Para levantar el servidor de desarrollo de sFastAPI:
 uvicorn main:app --reload
 ```
 
-**Parámetros del comando:**s
+**Parámetros del comando:**
 - `main:app`: Indica que debe importar la aplicación `app` del archivo `main.py`
 - `--reload`: Reinicia automáticamente el servidor cuando detecta cambios en el código
 
