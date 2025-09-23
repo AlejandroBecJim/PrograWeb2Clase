@@ -47,15 +47,7 @@ prograwebbackend/
    cd prograwebbackend
    ```
 
-2. **Crea un entorno virtual (recomendado):**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # En macOS/Linux
-   # o
-   venv\Scripts\activate     # En Windows
-   ```
-
-3. **Instala las dependencias necesarias:**
+2. **Instala las dependencias necesarias:**
    ```bash
    pip install fastapi
    pip install uvicorn[standard]
@@ -70,13 +62,13 @@ prograwebbackend/
 
 #### Ejecutar el Servidor
 
-Para levantar el servidor de desarrollo de FastAPI:
+Para levantar el servidor de desarrollo de sFastAPI:
 
 ```bash
 uvicorn main:app --reload
 ```
 
-**Parámetros del comando:**
+**Parámetros del comando:**s
 - `main:app`: Indica que debe importar la aplicación `app` del archivo `main.py`
 - `--reload`: Reinicia automáticamente el servidor cuando detecta cambios en el código
 
