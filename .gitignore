@@ -6,42 +6,42 @@ env/
 */__pycache__/
 *.env
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+app-prograweb/dist
+app-prograweb/tmp
+app-prograweb/out-tsc
+app-prograweb/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+app-prograweb/node_modules
+app-prograweb/npm-debug.log
+app-prograweb/yarn-error.log
 
 # IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+app-prograweb/.idea/
+app-prograweb/.project
+app-prograweb/.classpath
+app-prograweb/.c9/
+app-prograweb/*.launch
+app-prograweb/.settings/
+app-prograweb/*.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+app-prograweb/.vscode/*
+!app-prograweb/.vscode/settings.json
+!app-prograweb/.vscode/tasks.json
+!app-prograweb/.vscode/launch.json
+!app-prograweb/.vscode/extensions.json
+app-prograweb/.history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+app-prograweb/.angular/cache
+app-prograweb/.sass-cache/
+app-prograweb/connect.lock
+app-prograweb/coverage
+app-prograweb/libpeerconnection.log
+app-prograweb/testem.log
+app-prograweb/typings
 
 # System files
-.DS_Store
-Thumbs.db
+app-prograweb/.DS_Store
+app-prograweb/Thumbs.db
