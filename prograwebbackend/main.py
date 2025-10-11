@@ -12,4 +12,4 @@ app.add_middleware(
 	allow_headers=["*"],
 )
 
-app.include_router(userrouter.router, prefix="/users", tags=["Users"])
+app.include_router(userrouter.router)

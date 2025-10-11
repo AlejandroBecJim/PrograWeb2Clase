@@ -53,6 +53,10 @@ prograwebbackend/
    pip install uvicorn[standard]
    pip install bcrypt
    pip install pydantic
+   pip install python-jose
+   pip install passlib
+   pip install python-dotenv
+   pip install python-multipart
    ```
 
    O instala todas las dependencias de una vez:
