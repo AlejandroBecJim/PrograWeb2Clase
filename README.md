@@ -61,7 +61,7 @@ prograwebbackend/
 
    O instala todas las dependencias de una vez:
    ```bash
-   pip install fastapi uvicorn[standard] bcrypt pydantic
+   pip install fastapi uvicorn[standard] bcrypt pydantic python-jose passlib pithon-dotenv python-multipart
    ```
 
 #### Ejecutar el Servidor
