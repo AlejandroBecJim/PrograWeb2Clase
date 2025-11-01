@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import userrouter
+from routers import userrouter,productrouter
 app = FastAPI(title="API PrograWeb ")
 
 # Configuración CORS para permitir todos los orígenes
@@ -13,3 +13,4 @@ app.add_middleware(
 )
 
 app.include_router(userrouter.router)
+app.include_router(productrouter.router)
